@@ -20,8 +20,8 @@ The environment features customizable obstacles, random starting positions, pass
 - `custom_taxi_env.py`: Custom taxi environment implementation
 - `q_learning.py`: Main Q-learning algorithm implementation
 - `interactive_test_agent.py`: Interactive script for step-by-step testing of the trained model
-- `optimized_q_learning.py`: Optimized Q-learning for more efficient training
 - `debug_q_learning.py`: Diagnostic tool for troubleshooting environment and model issues
+- `test_env.py`: Test the enviroment
 
 ## Requirements
 
@@ -50,12 +50,6 @@ Run the basic Q-learning algorithm:
 
 ```bash
 python q_learning.py
-```
-
-Run the optimized version:
-
-```bash
-python optimized_q_learning.py
 ```
 
 ### 2. Testing the Trained Model
@@ -101,7 +95,7 @@ python debug_q_learning.py
 
 - alpha (learning rate): 0.1
 - gamma (discount factor): 0.9
-- epsilon (exploration rate): 0.1 (basic) / 1.0→0.01 (optimized)
+- epsilon (exploration rate): 0.1 (basic) / 4.0→0.01 (optimized)
 
 ## Algorithm
 
@@ -132,10 +126,6 @@ Where:
 - Multi-agent support
 - Training acceleration through transfer learning methods
 
-## License
-
-MIT
-
 ## Contact
 
-[Your Email/GitHub information]
+[cnosmn14043@gmail.com]
